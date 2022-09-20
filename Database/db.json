@@ -1,0 +1,34 @@
+{
+    "veg": [
+        {
+            "VeggieName" : "Potato",
+            "VeggieImage": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG90YXRvfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "id": 1,
+            "Veggieinfo": "Potatoes, also know as aloo or batata, are a key source of carbohydrates and is one of the most heavily used vegetable in Indian cooking."
+        },
+        {
+            "VeggieName" : "Lady finger",
+            "VeggieImage": "https://healthwire.pk/wp-content/uploads/2022/03/lady-finger-benefits.jpg",
+            "id": 2,
+            "Veggieinfo": "Potatoes, also know as aloo or batata, are a key source of carbohydrates and is one of the most heavily used vegetable in Indian cooking."
+        },
+        {
+            "VeggieName" : "Cauli flower",
+            "VeggieImage": "https://post.healthline.com/wp-content/uploads/2020/03/broccoli-cauliflower-732x549-thumbnail.jpg",
+            "id": 4,
+            "Veggieinfo": "Potatoes, also know as aloo or batata, are a key source of carbohydrates and is one of the most heavily used vegetable in Indian cooking."
+        },
+        {
+            "VeggieName" : "Spinach",
+            "VeggieImage": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/05/spinach-1296x728-header.jpg?w=1155&h=1528",
+            "id": 5,
+            "Veggieinfo": "Potatoes, also know as aloo or batata, are a key source of carbohydrates and is one of the most heavily used vegetable in Indian cooking."
+        },
+        {
+            "VeggieName" : "Tomato",
+            "VeggieImage": "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+            "id": 1,
+            "Veggieinfo": "Potatoes, also know as aloo or batata, are a key source of carbohydrates and is one of the most heavily used vegetable in Indian cooking."
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+.vegList{
+    width: 300px;
+    height: 410px;
+    background-color: #faf2f2;
+    border-radius: 10px;
+    margin: auto; 
+    margin-top: 50px;
+    /* cursor: pointer; */
+    text-align: center;
+    padding: 10px;
+    font-family: Times;
+    margin-bottom: 10px;
+}
+/* .buy-btn:hover{
+    box-shadow:  10px 10px 40px #bebebe,
+             -10px -10px 40px #ffffff;
+} */
+.Information{
+    color: grey;
+}
+.vegimg{
+    border-radius: 10px;
+    height: 200px;
+    width: 280px; 
+    position: relative;
+}
+.vegimg::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    z-index: 1; 
+    background-color: rgba(0,0,0,0.6);
+}
+.Container{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.sub-container{
+    position: relative;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+
+}
+.buy-btn{
+    column-count: 2;
+    background-color: green;
+    cursor: pointer;
+    column-gap: 0px;
+    border-radius: 50px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    padding: 2px;
+}
+
+.buy-now{
+    padding: 10px;
+    color: white;
+}
+.buy-btn:focus{
+    animation: butn .3s forwards;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 0px 1px #d3d1d1;
+}
+@keyframes butn{
+    100%{
+        box-shadow:  0px 0px 2px 3px #5453535c; 
+    }
+}
