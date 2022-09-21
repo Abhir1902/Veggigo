@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/HomePage/Navbar'
 import VegList from './Components/HomePage/VegList'
+
 import {useState, useEffect} from 'react' 
 function App() {
   const [veggies,setVeggies] = useState(null);
