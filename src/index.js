@@ -6,13 +6,17 @@ import LoginPage from './Components/LoginPage/LoginPage';
 
 //Imported the mdb package and font awsome package
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
-
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/fontawesome.css';
+import { Router } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginPage />
+    <Router>
+      <LoginPage />
+    </Router>
     {/* { <App />} */}
+    {/* <Routes /> */}
   </React.StrictMode>
 );
 

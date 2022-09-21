@@ -1,7 +1,11 @@
 import React from 'react'
+import { Router } from 'react-router-dom';
 import '../../style/HomePage/NavBar.css' 
+
+
 function Navbar() {
   return (
+    <Router>
     <div className = "nav-header">
       <div className="logo">
         <a href="/" ><h1>Veggigo</h1></a>
@@ -12,8 +16,10 @@ function Navbar() {
         <li>My Orders</li>
         <a href="./LoginPage.js">
         <li>Login</li></a>
+        
       </ul>
     </div>
+    </Router>
   )
 }
 
